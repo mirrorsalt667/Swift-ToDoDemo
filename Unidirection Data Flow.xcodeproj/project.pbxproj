@@ -19,6 +19,8 @@
 		B57C492A2ACAC79B00BDCFD1 /* ToDoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57C49292ACAC79B00BDCFD1 /* ToDoStore.swift */; };
 		B5919AAE2ACC22CB00D5FC16 /* TableViewInputCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5919AAD2ACC22CB00D5FC16 /* TableViewInputCell.swift */; };
 		B5919AB02ACC230900D5FC16 /* TableViewTitleAddCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5919AAF2ACC230900D5FC16 /* TableViewTitleAddCell.swift */; };
+		B5919AB22ACC255F00D5FC16 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5919AB12ACC255F00D5FC16 /* Store.swift */; };
+		B5919AB42ACC26A600D5FC16 /* TableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5919AB32ACC26A600D5FC16 /* TableViewDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		B57C49292ACAC79B00BDCFD1 /* ToDoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoStore.swift; sourceTree = "<group>"; };
 		B5919AAD2ACC22CB00D5FC16 /* TableViewInputCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewInputCell.swift; sourceTree = "<group>"; };
 		B5919AAF2ACC230900D5FC16 /* TableViewTitleAddCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewTitleAddCell.swift; sourceTree = "<group>"; };
+		B5919AB12ACC255F00D5FC16 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		B5919AB32ACC26A600D5FC16 /* TableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,9 +111,11 @@
 			children = (
 				B57C48F72ACAC74600BDCFD1 /* AppDelegate.swift */,
 				B57C48F92ACAC74600BDCFD1 /* SceneDelegate.swift */,
+				B5919AB12ACC255F00D5FC16 /* Store.swift */,
 				B5919AAD2ACC22CB00D5FC16 /* TableViewInputCell.swift */,
 				B5919AAF2ACC230900D5FC16 /* TableViewTitleAddCell.swift */,
 				B57C49272ACAC77C00BDCFD1 /* ToDoDemoTableViewController.swift */,
+				B5919AB32ACC26A600D5FC16 /* TableViewDataSource.swift */,
 				B57C49292ACAC79B00BDCFD1 /* ToDoStore.swift */,
 				B57C48FD2ACAC74600BDCFD1 /* Main.storyboard */,
 				B57C49002ACAC74800BDCFD1 /* Assets.xcassets */,
@@ -267,7 +273,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5919AB22ACC255F00D5FC16 /* Store.swift in Sources */,
 				B57C492A2ACAC79B00BDCFD1 /* ToDoStore.swift in Sources */,
+				B5919AB42ACC26A600D5FC16 /* TableViewDataSource.swift in Sources */,
 				B57C48F82ACAC74600BDCFD1 /* AppDelegate.swift in Sources */,
 				B5919AAE2ACC22CB00D5FC16 /* TableViewInputCell.swift in Sources */,
 				B57C49282ACAC77C00BDCFD1 /* ToDoDemoTableViewController.swift in Sources */,
